@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+    <!--配置扫描器是为了扫描包下面的 @xxx修饰的注解, 这边过滤掉@Control注解，该注解在SpringMVC配置文件中已经配置了-->
+<!--    <context:component-scan base-package="com.wicresoft">-->
+<!--        <context:exclude-filter type="annotation"-->
+<!--                                expression="org.springframework.stereotype.Controller" />-->
+<!--    </context:component-scan>-->
+<!--    <context:component-scan base-package="com.wicresoft"></context:component-scan>-->
+
+
+</beans>
